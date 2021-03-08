@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-//Rutas Funcionales
+//Rutas
 
 app.use(require('./routes/login'));
 app.use(require('./routes/ventas'));
